@@ -59,7 +59,7 @@ src/
 
 ## 🌐 Déploiement
 
-Le site est optimisé pour un déploiement rapide sur **Vercel** ou **Netlify**.
+Le site est optimisé pour un déploiement rapide sur **Vercel**.
 Pour générer la version de production :
 
 ```bash
