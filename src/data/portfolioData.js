@@ -1,20 +1,28 @@
 export const portfolioData = {
   personalInfo: {
     name: "Lenny Dardet",
-    title: "Étudiant en 3ème année de B.U.T Informatique",
+    title: "Développeur Full Stack",
     location: "Toulouse, France",
     email: "lenny.dardet.corps@gmail.com",
     phone: "07 78 15 17 97",
     linkedin: "https://www.linkedin.com/in/lenny-dardet-a1042a254",
     github: "https://github.com/dardeeet",
-    description: "Passionné par la programmation, notamment le développement web, le développement logiciel et la gestion de bases de données. Originaire de Tarbes, j'ai un parcours tourné vers l'innovation et la technique.",
+    lookingFor: "Alternance (2026-2028) - Master Big Data & IA",
+    description: "Passionné par le développement web et logiciel, j'évolue actuellement en tant que Développeur Full Stack. Mon parcours, alliant rigueur académique et expériences concrètes en entreprise, me permet de concevoir des solutions robustes et innovantes, du backend à l'interface utilisateur.",
     interests: ["Tennis", "Football", "Montage photo/vidéo"]
   },
   experience: [
     {
+      company: "Adonis Education",
+      role: "Développeur Full Stack",
+      period: "Depuis Avril 2025",
+      description: "Gestion et développement de l'ensemble du système informatique de l'école. \n- Maintenance et évolution de 4 sites institutionnels : [adonis.fr](https://adonis.fr), [etudis.net](https://etudis.net), [iesca.fr](https://iesca.fr), [rosecarmin.fr](https://rosecarmin.fr).\n- Développement de l'Espace Interactif (EI), l'ENT des élèves.\n- Maintenance de SICA (ERP interne) et conception de NSICA, le nouvel ERP moderne développé de zéro.",
+      skills: ["PHP", "TypeScript", "React", "Vite", "Bun", "Docker", "GitLab", "Composer", "Swagger", "Jira"]
+    },
+    {
       company: "Ayoti",
       role: "Alternance - Développeur Web & Logiciel",
-      period: "Décembre 2024 - Juin 2025",
+      period: "Décembre 2024 - Avril 2025",
       description: "Création d'une application web et d'un logiciel pour les professionnels du transport de voyageurs.",
       skills: ["C#", "Développement web", "Front-end", "Bases de données"]
     },
@@ -35,10 +43,16 @@ export const portfolioData = {
   ],
   education: [
     {
+      school: "Epitech",
+      degree: "Master Big Data & IA",
+      period: "2026 - 2028",
+      details: "Admis en Master pour approfondir mes connaissances en science des données et intelligence artificielle."
+    },
+    {
       school: "IUT Paul Sabatier, Toulouse",
       degree: "B.U.T Informatique (3ème année)",
-      period: "En cours",
-      details: "Spécialisation en développement logiciel et web."
+      period: "2022 - 2025",
+      details: "Obtention du diplôme avec spécialisation en développement logiciel et web."
     },
     {
       school: "Lycée Jean Dupuy, Tarbes",
@@ -48,11 +62,19 @@ export const portfolioData = {
     }
   ],
   skills: [
-    { category: "Développement", items: ["HTML", "CSS", "JavaScript", "React", "Spring Boot", "C++", "C#", "Python"] },
-    { category: "Outils & Méthodes", items: ["Git", "Méthodes Agiles", "Bases de données", "WordPress", "Windev"] },
+    { category: "Développement", items: ["PHP", "TypeScript", "React", "Vite", "Bun", "JavaScript", "C#", "C++", "Python", "HTML", "CSS"] },
+    { category: "Data & IA", items: ["Big Data (Apprentissage)", "Intelligence Artificielle (Apprentissage)"] },
+    { category: "Outils & DevOps", items: ["Docker", "GitLab", "Composer", "Swagger", "Jira", "Git", "Méthodes Agiles"] },
     { category: "Soft Skills & Autres", items: ["Communication", "Gestion de projet", "Montage Vidéo", "Tennis", "Football"] }
   ],
   projects: [
+    {
+      title: "NSICA (Projet Startup)",
+      description: "Conception et développement de zéro du nouvel ERP pour Adonis Education. Utilisation d'une architecture moderne orientée performance et scalabilité.",
+      link: "#",
+      image: "/src/assets/nsica_placeholder.png", // Use placeholder or generate image
+      tags: ["Vite", "TypeScript", "React", "PHP API", "Bun"]
+    },
     {
       title: "Cabinet Médical (PHP)",
       description: "Application web de gestion d'un cabinet médical (patients, rendez-vous, personnel).",
@@ -70,12 +92,6 @@ export const portfolioData = {
       description: "Loterie de cryptomonnaies utilisant MetaMask et le testnet Sepolia.",
       link: "https://github.com/7stuart/web_crypto_sae",
       image: "/src/assets/web_crypto.png"
-    },
-    {
-      title: "Guichet Bancaire (Windev)",
-      description: "Application d'opérations bancaires classiques (dépôt, retrait, consultation).",
-      link: "https://github.com/maelgoujon/Guichet-Bancaire-Windev",
-      image: "/src/assets/guichet_bancaire.png"
     }
   ]
 };

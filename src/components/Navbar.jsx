@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Home, User, Briefcase, Code, Mail } from 'lucide-react';
+import { Menu, X, Home, User, Briefcase, Code, Mail, GraduationCap } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +18,7 @@ const Navbar = () => {
     { name: 'Accueil', href: '#home', icon: <Home size={18} /> },
     { name: 'À propos', href: '#about', icon: <User size={18} /> },
     { name: 'Expérience', href: '#experience', icon: <Briefcase size={18} /> },
+    { name: 'Études', href: '#education', icon: <GraduationCap size={18} /> },
     { name: 'Projets', href: '#projects', icon: <Code size={18} /> },
     { name: 'Contact', href: '#contact', icon: <Mail size={18} /> },
   ];

@@ -36,7 +36,7 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75" style={{ backgroundColor: 'var(--primary)' }}></span>
               <span className="relative inline-flex rounded-full h-2 w-2" style={{ backgroundColor: 'var(--primary)' }}></span>
             </span>
-            Disponible pour nouveaux projets
+            {personalInfo.lookingFor || "Disponible pour nouveaux projets"}
           </motion.div>
           
           <motion.h1 variants={itemVariants} className="mt-6 text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter">
@@ -44,7 +44,7 @@ const Hero = () => {
           </motion.h1>
           
           <motion.p variants={itemVariants} className="mt-6 text-xl max-w-lg" style={{ color: 'var(--text-muted)' }}>
-            {personalInfo.title}. {personalInfo.description}
+            <span className="text-white font-bold">{personalInfo.title}</span>. {personalInfo.description}
           </motion.p>
           
           <motion.div variants={itemVariants} className="mt-10 flex flex-wrap gap-4">

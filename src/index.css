@@ -150,9 +150,9 @@ img {
 }
 
 .min-h-screen { min-height: 100vh; }
-.max-w-xl { max-w: 36rem; }
-.max-w-lg { max-w: 32rem; }
-.max-w-4xl { max-w: 56rem; }
+.max-w-xl { max-width: 36rem; }
+.max-w-lg { max-width: 32rem; }
+.max-w-4xl { max-width: 56rem; }
 .max-w-7xl { max-width: 80rem; }
 
 /* Position & Display */
@@ -168,6 +168,10 @@ img {
 .top-4 { top: 1rem; }
 .right-4 { right: 1rem; }
 .-inset-4 { top: -1rem; right: -1rem; bottom: -1rem; left: -1rem; }
+.bottom-6 { bottom: 1.5rem; }
+.bottom-8 { bottom: 2rem; }
+.right-6 { right: 1.5rem; }
+.right-8 { right: 2rem; }
 .-bottom-6 { bottom: -1.5rem; }
 .-right-6 { right: -1.5rem; }
 
@@ -176,7 +180,7 @@ img {
 .z-50 { z-index: 50; }
 .z-\[-1\] { z-index: -1; }
 .pointer-events-none { pointer-events: none; }
-.overflow-hidden { overflow-hidden: hidden; }
+.overflow-hidden { overflow: hidden; }
 .overflow-x-hidden { overflow-x: hidden; }
 
 /* Typography */
@@ -206,7 +210,7 @@ img {
 .tracking-tighter { letter-spacing: -0.05em; }
 .tracking-tight { letter-spacing: -0.025em; }
 .text-center { text-align: center; }
-.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-clamp: 3; }
 
 /* Colors & Effects */
 .bg-transparent { background-color: transparent; }
