@@ -76,8 +76,8 @@ const Hero = () => {
           className="order-1 md:order-2 flex justify-center"
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80">
-            {/* Background design elements */}
-            <div className="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-3xl blur-2xl opacity-20 animate-pulse" style={{ background: 'linear-gradient(45deg, var(--primary), #8b5cf6)' }}></div>
+            {/* Background design elements - hidden or simplified on mobile */}
+            <div className="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-3xl blur-2xl opacity-20 md:animate-pulse" style={{ background: 'linear-gradient(45deg, var(--primary), #8b5cf6)' }}></div>
 
             <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 z-10" style={{ borderColor: 'var(--border)', backgroundColor: 'var(--bg-slate)' }}>
               {/* Fallback pattern if image is missing */}
