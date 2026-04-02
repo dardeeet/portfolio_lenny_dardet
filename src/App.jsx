@@ -3,8 +3,10 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Experience from './components/Experience'
+import Education from './components/Education'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -21,10 +23,12 @@ function App() {
         <Hero />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
       </main>
 
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }
