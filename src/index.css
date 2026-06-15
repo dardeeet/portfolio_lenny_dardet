@@ -144,9 +144,12 @@ img {
 .h-2 { height: 0.5rem; }
 .w-64 { width: 16rem; }
 .h-64 { height: 16rem; }
+.h-80 { height: 20rem; }
+.h-96 { height: 24rem; }
 @media (min-width: 768px) {
   .md\:w-80 { width: 20rem; }
   .md\:h-80 { height: 20rem; }
+  .md\:h-96 { height: 24rem; }
 }
 
 .min-h-screen { min-height: 100vh; }

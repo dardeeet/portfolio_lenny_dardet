@@ -75,7 +75,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="order-1 md:order-2 flex justify-center"
         >
-          <div className="relative w-64 h-64 md:w-80 md:h-80">
+          <div className="relative w-64 h-80 md:w-80 md:h-96">
             {/* Background design elements - hidden or simplified on mobile */}
             <div className="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-3xl blur-2xl opacity-20 md:animate-pulse" style={{ background: 'linear-gradient(45deg, var(--primary), #8b5cf6)' }}></div>
 
