@@ -18,8 +18,7 @@ const Projects = () => {
         "Cabinet Médical (PHP)": cabinetMedicalImg,
         "Suivi de Formation (Spring Boot)": suiviFormationImg,
         "Web Crypto (SAE)": webCryptoImg,
-        "Guichet Bancaire (Windev)": guichetBancaireImg,
-        "NSICA (Projet Startup)": null // Placeholder for now
+        "Guichet Bancaire (Windev)": guichetBancaireImg
     };
 
     const containerVariants = {

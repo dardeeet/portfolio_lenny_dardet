@@ -13,10 +13,17 @@ export const portfolioData = {
   },
   experience: [
     {
+      company: "NSICA",
+      role: "Développeur Full Stack",
+      period: "Depuis Avril 2026",
+      description: "Conception et développement complet du nouvel ERP moderne [nsica.fr](https://nsica.fr) destiné à la gestion des établissements d'enseignement.\n- Architecture et développement du frontend (Vite, React, TypeScript) et du backend (APIs REST en PHP, Bun).\n- Développement de fonctionnalités clés : génération de bulletins scolaires complexes, module complet de gestion et affichage des agendas/plannings des enseignants, système d'évaluations en présentiel et chargement dynamique des formations.\n- Conception d'APIs robustes et documentées avec Swagger, gestion des conteneurs avec Docker et intégration dans GitLab CI/CD.",
+      skills: ["React", "TypeScript", "PHP", "Vite", "Bun", "Docker", "GitLab", "Swagger", "REST APIs"]
+    },
+    {
       company: "Adonis Education",
       role: "Développeur Full Stack",
       period: "Depuis Avril 2025",
-      description: "Gestion et développement de l'ensemble du système informatique de l'école. \n- Maintenance et évolution de 4 sites institutionnels : [adonis.fr](https://adonis.fr), [etudis.net](https://etudis.net), [iesca.fr](https://iesca.fr), [rosecarmin.fr](https://rosecarmin.fr).\n- Développement de l'Espace Interactif (EI), l'ENT des élèves.\n- Maintenance de SICA (ERP interne) et conception de NSICA, le nouvel ERP moderne développé de zéro.",
+      description: "Gestion et développement de l'ensemble du système informatique de l'école. \n- Maintenance et évolution de 4 sites institutionnels : [adonis.fr](https://adonis.fr), [etudis.net](https://etudis.net), [iesca.fr](https://iesca.fr), [rosecarmin.fr](https://rosecarmin.fr).\n- Développement et maintenance de l'Espace Interactif (EI), l'ENT des élèves et des enseignants.\n- Support technique et maintenance évolutive de SICA (ERP interne historique).",
       skills: ["PHP", "TypeScript", "React", "Vite", "Bun", "Docker", "GitLab", "Composer", "Swagger", "Jira"]
     },
     {
@@ -68,13 +75,6 @@ export const portfolioData = {
     { category: "Soft Skills & Autres", items: ["Communication", "Gestion de projet", "Montage Vidéo", "Tennis", "Football"] }
   ],
   projects: [
-    {
-      title: "NSICA (Projet Startup)",
-      description: "Conception et développement de zéro du nouvel ERP pour Adonis Education. Utilisation d'une architecture moderne orientée performance et scalabilité.",
-      link: "#",
-      image: "/src/assets/nsica_placeholder.png", // Use placeholder or generate image
-      tags: ["Vite", "TypeScript", "React", "PHP API", "Bun"]
-    },
     {
       title: "Cabinet Médical (PHP)",
       description: "Application web de gestion d'un cabinet médical (patients, rendez-vous, personnel).",
