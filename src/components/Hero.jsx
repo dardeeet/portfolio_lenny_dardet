@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { MousePointer2, Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { portfolioData } from '../data/portfolioData';
-import profilePhoto from '../assets/photo_sans_fond.png';
+import profilePhoto from '../assets/P1005434.JPG';
 
 const Hero = () => {
   const { personalInfo } = portfolioData;
