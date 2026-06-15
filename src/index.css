@@ -322,5 +322,10 @@ img {
 /* Selection */
 .selection\:bg-indigo-500\/30 ::selection { background-color: rgba(99, 102, 241, 0.3); }
 
+/* Object Fit */
+.object-cover { object-fit: cover; }
+.object-contain { object-fit: contain; }
+.object-center { object-position: center; }
+
 /* Aspect Ratio */
 .aspect-video { aspect-ratio: 16 / 9; }
